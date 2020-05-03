@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Discrete_Math"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="470" Width="700." ResizeMode="NoResize" WindowStyle="None">
+    <Grid Margin="0,20,0,0" Background="#FFEAEAEA">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="UtterForm" VerticalAlignment="Top" FontSize="24"/>
+        <Button Name="ButtonPSNF"  Content="СКНФ" Margin="553,245,27,160" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center"/>
+        <Button Name="ButtonMenu" Content="" HorizontalAlignment="Center" Margin="652,10,10,402" VerticalAlignment="Center" Width="38" Height="38"/>
+        <TextBox Text ="" Name="TextBoxName" HorizontalAlignment="Left" Margin="10,52,0,371" Width="517"/>
+        <Button Name="ButtonCalcPDNF" Content="СДНФ" Margin="553,195,27,210" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center"/>
+        <Button Name="ButtonTruthTable"  Content="Таблица Ист-и" Margin="553,145,27,260" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center"/>
+        <Button Name="ButtonSaveTXT" Content="Сохранить файл..." Margin="553,369,0,36" HorizontalAlignment="Left" Width="120" FontWeight="Bold"/>
+        <Grid Margin="0,-20,0,450" Background="White" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="700">
+            <Grid.Effect>
+                <DropShadowEffect Opacity="0.3" BlurRadius="20" Direction="270"/>
+            </Grid.Effect>
+        </Grid>
+        <Button Name="ButtonClose" Content="" HorizontalAlignment="Left" Margin="681,-18,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <Button Name="ButtonHidden" Content="" HorizontalAlignment="Left" Margin="663,-18,0,453" Width="15" Height="15" VerticalAlignment="Bottom"/>
+        <Button Name="ButtonMinimized" Content="" HorizontalAlignment="Left" Margin="645,-18,0,0" VerticalAlignment="Top" Width="15" Height="15"/>
+        <TextBox Name="TextBoxContent" HorizontalAlignment="Left" Height="356" Margin="10,84,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="517"/>
     </Grid>
 </Window>

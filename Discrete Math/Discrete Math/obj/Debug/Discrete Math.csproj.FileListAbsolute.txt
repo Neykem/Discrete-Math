@@ -1,0 +1,15 @@
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Debug\Discrete Math.exe.config
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Debug\Discrete Math.exe
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Debug\Discrete Math.pdb
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.csprojAssemblyReference.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\MainWindow.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\App.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math_MarkupCompile.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math_MarkupCompile.lref
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\MainWindow.baml
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.g.resources
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete_Math.Properties.Resources.resources
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.csproj.GenerateResource.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.csproj.CoreCompileInputs.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.exe
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.pdb
