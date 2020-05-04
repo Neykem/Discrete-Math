@@ -13,3 +13,5 @@ E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.csproj.
 E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.csproj.CoreCompileInputs.cache
 E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.exe
 E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\Discrete Math.pdb
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\AddNewFunction.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Debug\AddNewFunction.baml

@@ -55,9 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddNewFunction.xaml.cs">
+      <DependentUpon>AddNewFunction.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CodeFile1.cs" />
     <Compile Include="CommonFunction.cs" />
+    <Compile Include="FunctionViewModel.cs" />
     <Compile Include="TruthTable.cs" />
+    <Page Include="AddNewFunction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="menuButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

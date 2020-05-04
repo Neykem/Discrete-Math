@@ -5,12 +5,18 @@ namespace Discrete_Math
 {
     class BooleanFunction : IBooleanFunc
     {
+        private int id { get; set; }
         private int n1 { get; set; }
         private int n2 { get; set; }
         private char[] n1_bool { get; set; }
         private char[] n2_bool { get; set; }
         private TruthTable boolean_Function_TruthTable;
         public string Name;
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
         public int N1
         {
             get { return n1; }
@@ -26,8 +32,9 @@ namespace Discrete_Math
             get { return boolean_Function_TruthTable; }
             set { boolean_Function_TruthTable = value; }
         }
-        public BooleanFunction(string name, int arg_n1, int arg_n2)
+        public BooleanFunction(int arg_id, string name, int arg_n1, int arg_n2)
         {
+            ID = arg_id;
             Name = name;
             n1 = arg_n1;
             n2 = arg_n2;
