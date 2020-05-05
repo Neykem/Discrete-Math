@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace Discrete_Math
 {
     class BooleanFunction : IBooleanFunc

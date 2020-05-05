@@ -11,7 +11,7 @@
         <TextBox Name="TextBoxN1" HorizontalAlignment="Left" Height="23" Margin="64,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="TextBoxN1_TextChanged"/>
         <TextBox Name="TextBoxN2" HorizontalAlignment="Left" Height="23" Margin="64,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextChanged="TextBox_N2_TextChanged"/>
         <Label Content="Введите значения для F():" HorizontalAlignment="Left" Margin="14,9,0,0" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="168,128,0,0" VerticalAlignment="Top" Width="60" Click="ButtonClickAdd" Height="28"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="168,128,0,0" VerticalAlignment="Top" Width="60" Click="ButtonClickAdd" Height="28"/>
         <Label Content="Name" HorizontalAlignment="Left" Margin="14,40,0,0" VerticalAlignment="Top"/>
         <Label Content="N1" HorizontalAlignment="Left" Margin="14,68,0,0" VerticalAlignment="Top"/>
         <Label Content="N2" HorizontalAlignment="Left" Margin="14,94,0,0" VerticalAlignment="Top"/>

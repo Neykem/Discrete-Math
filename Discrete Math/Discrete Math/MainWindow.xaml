@@ -52,16 +52,16 @@
         <!--541,10,121,402 До-->
         <!--652,10,10,402 После-->
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="UtterForm" VerticalAlignment="Top" FontSize="24" TextDecorations="{x:Null}" FontFamily="Segoe UI Symbol"/>
-        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonPSNF"  Content="СКНФ" Margin="553,245,27,160" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" Click="ButtonPSNF_Click" Panel.ZIndex="2"/>
+        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonPSNF"  Content="СКНФ" Margin="553,208,27,197" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" Click="ButtonPSNF_Click" Panel.ZIndex="2"/>
         <Button Name="ButtonMenu" HorizontalAlignment="Center" Margin="652,10,10,402" VerticalAlignment="Center" Width="38" Height="38" BorderBrush="{x:Null}" Background="#FF252525" Panel.ZIndex="5" Click="ButtonMenu_Click">
 
             <Button.OpacityMask>
                 <ImageBrush ImageSource="menuButton.png"/>
             </Button.OpacityMask>
         </Button>
-      
-        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonCalcPDNF" Content="СДНФ" Margin="553,195,27,210" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" Click="ButtonCalcPDNF_Click" Panel.ZIndex="2"/>
-        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonTruthTable"  Content="Таблица Ист-и" Margin="553,145,27,260" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" BorderBrush="White" Foreground="{x:Null}" SnapsToDevicePixels="True" Click="ButtonTruthTable_Click" Panel.ZIndex="2"/>
+
+        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonCalcPDNF" Content="СДНФ" Margin="553,158,27,247" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" Click="ButtonCalcPDNF_Click" Panel.ZIndex="2"/>
+        <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonTruthTable"  Content="Таблица Ист-и" Margin="553,108,27,297" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" BorderBrush="White" Foreground="{x:Null}" SnapsToDevicePixels="True" Click="ButtonTruthTable_Click" Panel.ZIndex="2"/>
         <Button Template="{StaticResource TemplateButtonCommon}" Name="ButtonSaveTXT" Content="Сохранить файл..." Margin="553,369,0,36" HorizontalAlignment="Left" Width="120" FontWeight="Bold" Click="ButtonSaveTXT_Click" Panel.ZIndex="2"/>
         <Grid Margin="0,-20,0,450" Background="White" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Panel.ZIndex="7">
             <Grid.Effect>
@@ -71,7 +71,7 @@
         <Button Template="{StaticResource TemplateButtonClose}" Name="ButtonClose" HorizontalAlignment="Left" Margin="681,-18,0,0" VerticalAlignment="Top" Width="15" Height="15" BorderBrush="{x:Null}" BorderThickness="0" Background="{x:Null}" Foreground="{x:Null}" Panel.ZIndex="8" Click="ButtonClose_Click"/>
         <Button Template="{StaticResource TemplateButtonMinimized}" Name="ButtonHidden" Content="" HorizontalAlignment="Left" Margin="663,-18,0,453" Width="15" Height="15" VerticalAlignment="Bottom" Background="#FFFFB415" Panel.ZIndex="8" Click="ButtonHidden_Click"/>
         <Button Template="{StaticResource TemplateButtonHidden}" Name="ButtonMinimized" Content="" HorizontalAlignment="Left" Margin="645,-18,0,0" VerticalAlignment="Top" Width="15" Height="15" Panel.ZIndex="8" Click="ButtonMinimized_Click"/>
-        <TextBox Name="TextBoxContent" HorizontalAlignment="Left" Padding="5" Height="356" Margin="10,84,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="517" TextDecorations="{x:Null}" Background="#FFFFFCFC" BorderBrush="White" Foreground="Black" SelectionBrush="#FF5F5F5F">
+        <TextBox Name="TextBoxContent" HorizontalAlignment="Left" Padding="5" Height="356" Margin="10,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="517" TextDecorations="{x:Null}" Background="#FFFFFCFC" BorderBrush="White" Foreground="Black" SelectionBrush="#FF5F5F5F">
             <TextBox.Effect>
                 <DropShadowEffect Opacity="0.1" Direction="0" BlurRadius="10"/>
             </TextBox.Effect>
@@ -108,10 +108,11 @@
             </DataGrid>
             <Button Name="ButtonMenuAdd" Template="{StaticResource TemplateButtonCommon}" Content="Добавить" Click="AddMore" Margin="557,397,23,10" FontSize="10" Visibility="Hidden"/>
         </Grid>
-        <TextBlock Name="TextBoxName" Padding="5" HorizontalAlignment="Left" Margin="10,52,0,0" Text="TextBlock" VerticalAlignment="Top" Height="27" Width="517" Background="White" TextWrapping="Wrap">
+        <TextBlock Name="TextBoxName" Padding="5" HorizontalAlignment="Left" Margin="10,52,0,0" Text="" VerticalAlignment="Top" Height="27" Width="517" Background="White" TextWrapping="Wrap">
             <TextBlock.Effect>
                 <DropShadowEffect BlurRadius="10" Opacity="0.1" Direction="0"/>
             </TextBlock.Effect>
         </TextBlock>
+        <Button Template="{StaticResource TemplateButtonCommon}" x:Name="ButtonClear"  Content="Очистить" Margin="553,258,27,147" HorizontalAlignment="Center" Width="120" FontWeight="Bold" Height="45" VerticalAlignment="Center" Click="ButtonClear_Click" Panel.ZIndex="2"/>
     </Grid>
 </Window>
