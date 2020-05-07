@@ -53,7 +53,6 @@ namespace Discrete_Math
                     result = '0' + result;
                 }
             }
-            MessageBox.Show(result);
             return result.ToCharArray();
         }
 

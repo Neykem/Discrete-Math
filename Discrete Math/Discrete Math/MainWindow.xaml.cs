@@ -25,7 +25,6 @@ namespace Discrete_Math
         {
             try
             {
-                string buff = "";
                 idSelect = 0;
                 InitializeComponent();
                 Document = new XDocument(new XElement("Root"));
@@ -134,7 +133,6 @@ namespace Discrete_Math
             {
                 if (TruthTableIScalc == false)
                 {
-                    //MessageBox.Show(list_boolean[idSelect].Name);
                     string buff = "";
                     list_boolean[idSelect].CalculationTruthTable(list_boolean[idSelect]);
                     TextBoxName.Text = list_boolean[idSelect].Name;

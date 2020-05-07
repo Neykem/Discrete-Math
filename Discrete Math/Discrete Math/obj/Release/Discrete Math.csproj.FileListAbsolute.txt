@@ -1,0 +1,17 @@
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Release\Discrete Math.exe.config
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Release\Discrete Math.exe
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\bin\Release\Discrete Math.pdb
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.csprojAssemblyReference.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\AddNewFunction.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\MainWindow.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\App.g.cs
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math_MarkupCompile.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math_MarkupCompile.lref
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\AddNewFunction.baml
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\MainWindow.baml
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.g.resources
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete_Math.Properties.Resources.resources
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.csproj.GenerateResource.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.csproj.CoreCompileInputs.cache
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.exe
+E:\Git\Discrete-Math\Discrete Math\Discrete Math\obj\Release\Discrete Math.pdb
