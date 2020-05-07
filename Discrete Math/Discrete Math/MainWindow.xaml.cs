@@ -138,7 +138,7 @@ namespace Discrete_Math
                     string buff = "";
                     list_boolean[idSelect].CalculationTruthTable(list_boolean[idSelect]);
                     TextBoxName.Text = list_boolean[idSelect].Name;
-                    TextBoxContent.Text += "Таблица истенности для F(N1 = " + list_boolean[idSelect].N1 + ", N2 = " + list_boolean[idSelect].N2 + ")" + '\n';
+                    TextBoxContent.Text += "Таблица истинности для F(N1 = " + list_boolean[idSelect].N1 + ", N2 = " + list_boolean[idSelect].N2 + ")" + '\n';
                     for (int n = 0; 5 > n; n++)
                     {
                         buff += "|" + '\t';
@@ -154,7 +154,7 @@ namespace Discrete_Math
                 }
                 else
                 {
-                    MessageBox.Show("Таблица истенности уже вычислена!","Предупреждение");
+                    MessageBox.Show("Таблица истинности уже вычислена!","Предупреждение");
                 }
             }
             catch

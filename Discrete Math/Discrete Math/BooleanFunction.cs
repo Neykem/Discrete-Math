@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows;
 
 namespace Discrete_Math
 {
@@ -42,7 +43,7 @@ namespace Discrete_Math
         }
         public char[] ConvertToBool(int number)
         {
-            string result;
+            string result = null;
             result = Convert.ToString(number, 2);
             if (result.Length < 8)
             {
@@ -52,7 +53,7 @@ namespace Discrete_Math
                     result = '0' + result;
                 }
             }
-
+            MessageBox.Show(result);
             return result.ToCharArray();
         }
 
